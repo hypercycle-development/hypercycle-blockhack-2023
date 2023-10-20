@@ -1,5 +1,7 @@
 FROM python:3.8.17-slim-bullseye
 LABEL GPUS=0 GPU_MEMORY=0
+LABEL description="Queue example AIM. Now with royalities."
+LABEL royalty_addresses = "[{\"driver\": \"ethereum\", \"network\": \"sepolia\", \"address\":\"0x29B5B32cCC3A8cc06D91af9F1Dc5c7466218A005\"}]"
 
 ENV DEBIAN_FRONTEND=1
 
