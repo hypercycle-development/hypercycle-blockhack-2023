@@ -23,7 +23,7 @@ usage. See app/main.py for more information
 
 ## ZTranslate AIM
 
-This is a self-contained exaple AIM that doesn't use the pyhypercycle-aim library, and 
+This is a self-contained example AIM that doesn't use the pyhypercycle-aim library, and 
 includes all the needed header and body information needed to get a custom aim to run.
 
 
@@ -35,9 +35,19 @@ requirements.txt file:
 
 `git+https://github.com/hypercycle-development/pyhypercycle-aim.git#egg=pyhypercycle_aim`
 
+### Frontend
 
+For UI interaction we have prepared demos powered by Vite, React and Tailwind so you can quickly build
+your project. You need to have Node.js and yarn installed and then:
 
-
+1. Install NPM packages
+   ```sh
+   yarn install
+   ```
+2. Run application in develop mode
+   ```sh
+   yarn dev
+   ```
 
 
 
